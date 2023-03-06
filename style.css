@@ -74,6 +74,7 @@ h1 {
     line-height: 0.8em;
     font-family: 'Libre Franklin', sans-serif;
     hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 h2 {
