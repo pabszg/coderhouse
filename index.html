@@ -11,16 +11,35 @@
   <title>Mycobites - A fungi based co. </title>
 </head>
 <body>
-    <nav>
-      <ul>
-        <img class="logo" src="images/mycobites-logo-w.png" alt="">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="find.html">Encu&eacute;ntranos</a></li>
-        <li><a href="nos.html">Nosotros</a></li>
-        <li><a href="impact.html">Impacto</a></li>
-        <li><a href="recetas.html">Recetas</a></li>
-      </ul>
-    </nav>
+  <nav class="navbar navbar-expand-md bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="images/mycobites-logo-w.png" alt="MycoBites Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/find.html">Encu&eacute;ntranos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/nos.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/impact.html">Impacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/recetas.html">Recetas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <div class="page hero">
     <h1>fungi is king</h1>
     <span>Bienvenido al Reino Fungi</span>
@@ -29,11 +48,11 @@
     <h2>Fungi based Food</h2>
     <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error et quos vero natus vitae adipisci aperiam nostrum laudantium ut, cum veniam reiciendis. Nobis tenetur odit a corporis possimus, nostrum omnis.</span>
   </section>
-  <section id="productos" class="items">
-    <div><img src="images/funger.jpg" alt="Funger"><span>Hamburguesa</span></div>
-    <div><img src="images/fungiballs.jpg" alt="Fungiballs"><span>Alb&oacute;ndigas</span></div>
-    <div><img src="images/smash.jpg" alt="SmashRoom"><span>Molida</span></div>
-  </section>
+  <main id="productos" class="items">
+    <div class="col-12 col-md-4"><img src="images/funger.jpg" alt="Funger"><span>Hamburguesa</span></div>
+    <div class="col-12 col-md-4"><img src="images/fungiballs.jpg" alt="Fungiballs"><span>Alb&oacute;ndigas</span></div>
+    <div class="col-12 col-md-4"><img src="images/smash.jpg" alt="SmashRoom"><span>Molida</span></div>
+  </main>
   <footer>&copy; Mycobites - Todos los derechos reservados</footer>
 </body>
 </html>
