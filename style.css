@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800&family=Reenie+Beanie&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800&family=Reenie+Beanie&family=Roboto:wght@300;400;500&display=swap');
 
 * {
     margin: 0;
@@ -16,24 +16,19 @@ body {
     font-size: 18px;
     overflow-x: hidden;
 }
+nav span {
+    font-size: 2rem;
+}
 
 nav {
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     color: #000;
 }
 nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-nav ul li:hover {
-    border-bottom: 3px solid;
-}
-
-.burger {
-    font-size: 2rem;
 }
 
 .logo {
@@ -43,15 +38,14 @@ nav ul li:hover {
 
 .page {
     background-size: cover;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 50px);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
-    -webkit-hyphens: auto;
-    hyphens: auto;
 }
+
 .hero {
     background-image: url("images/hero2.jpg");
 }
@@ -79,7 +73,6 @@ h1 {
     -webkit-hyphens: auto;
     hyphens: auto;
 }
-
 h2 {
     font-size: 2rem;
     font-family: 'Libre Franklin', sans-serif;
@@ -92,19 +85,9 @@ h3 {
     font-size: 4rem;
     color: yellow;
     font-family: 'Reenie Beanie', cursive;
+    line-height: 0.8em;
 }
 
-#productos div {
-    float: left;
-}
-
-#productos img {
-    width: 100%;
-}
-
-#horeca {
-    background-color: #000;
-}
 .description {
     text-align: center;
     padding: 20px;
@@ -115,15 +98,39 @@ h3 {
     align-items: center;
 }
 
+.item {
+    float: left;
+}
+.item img {
+    max-width: 100%;
+}
+.horeca {
+    overflow: hidden;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.horeca img {
+    max-height: 200px;
+}
+
+#map iframe {
+    width: 100vw;
+    height: 50vh;
+}
+
 #nosVideo {
     width: 100vw;
     height: 52vw;
 }
-
 footer {
+    float: left;
+    width: 100vw;
     text-align: center;
     font-size: 0.6rem;
     padding: 10px;
+}
+footer img {
+    height: 100px;
 }
 
 @media only screen and (max-width: 768px) {
