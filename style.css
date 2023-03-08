@@ -43,12 +43,14 @@ nav ul li:hover {
 
 .page {
     background-size: cover;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 60px);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
+    -webkit-hyphens: auto;
+    hyphens: auto;
 }
 .hero {
     background-image: url("images/hero2.jpg");
