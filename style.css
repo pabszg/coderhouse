@@ -11,7 +11,6 @@
     list-style: none;
 }
 
-
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -101,11 +100,6 @@ h3 {
     width: 100%;
 }
 
-#map iframe {
-    width: 100vw;
-    height: 50vh;
-}
-
 #horeca {
     background-color: #000;
 }
@@ -121,7 +115,7 @@ h3 {
 
 #nosVideo {
     width: 100vw;
-    height: 100vh;
+    height: 52vw;
 }
 
 footer {
