@@ -109,9 +109,14 @@ h1 span {
 
 .item {
     float: left;
+    justify-content: center;
+    text-align: center;
 }
 .item img {
     max-width: 100%;
+}
+.item span {
+    font-weight: 500;
 }
 .horeca {
     overflow: hidden;
