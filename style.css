@@ -159,8 +159,9 @@ footer img {
     h1 {
         font-size: 9rem;
     }
+   
     .main--nav {
-        height: calc(100vh - 60px);
-        font-size: 2rem;
+        height: 80vh;
+        font-size: 3rem;
     }
 }
