@@ -1,0 +1,25 @@
+// Navigation Styles
+nav {
+    span {
+        font-size: 2rem;
+        font-weight: $bold;
+        color: black;
+    }
+}
+.main--nav {
+    text-transform: uppercase;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: $normal;
+    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    @media only screen and (max-width: 768px) {
+        height: 80vh;
+        font-size: 3rem;
+    }
+}
+.logo {
+    height: 50px;
+    background-color: black;
+}
