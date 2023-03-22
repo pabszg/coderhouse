@@ -11,10 +11,18 @@ $font-base: 18px;
 // Universal Reset
 * {
     margin: 0;
-    padding: 0;
-    font: inherit;
+	padding: 0;
+	border: 0;
+	font: inherit;
     color: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
     list-style: none;
+}
+
+a:visited, a:link {
+    color: inherit;
+    text-decoration: none;
 }
 
 // Body Styles
@@ -22,6 +30,9 @@ body {
     font-family: $content;
     font-size: $font-base;
     overflow-x: hidden;
+    @media only screen and (max-width: 768px) {
+        font-size: 12px;
+    }
 }
 
 // Navigation Styles
@@ -31,21 +42,19 @@ nav {
         font-weight: $bold;
         color: black;
     }
+}
 
-    &.main--nav {
-        text-transform: uppercase;
-        font-family: $titulo;
-        font-weight: $normal;
-        text-align: center;
-        color: black;
-        display: flex;
-        justify-content: space-around;
-        height: 100vh;
-
-        @media only screen and (max-width: 768px) {
-            height: 80vh;
-            font-size: 3rem;
-        }
+.main--nav {
+    text-transform: uppercase;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    @media only screen and (max-width: 768px) {
+        height: 80vh;
+        font-size: 3rem;
     }
 }
 
@@ -96,16 +105,14 @@ h1 {
     font-family: $titulo;
     -webkit-hyphens: auto;
     hyphens: auto;
-
     span {
         font-family: $bajada;
         font-size: 2em;
         color: inherit;
     }
-    
     @media only screen and (max-width: 768px) {
         height: 80vh;
-        font-size: 3rem;
+        font-size: 9rem;
     }
 }
 
