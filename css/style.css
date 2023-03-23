@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800&family=Reenie+Beanie&family=Roboto:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  color: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  list-style: none;
+}
+
+a:visited, a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav span {
+  font-size: 2rem;
+  font-weight: 800;
+  color: black;
+}
+
+.main--nav {
+  text-transform: uppercase;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 768px) {
+  .main--nav {
+    height: 80vh;
+    font-size: 3rem;
+  }
+}
+
+.logo {
+  height: 50px;
+  background-color: black;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+.page {
+  background-size: cover;
+  height: calc(100vh - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.hero {
+  background-image: url("images/hero2.jpg");
+}
+
+.nos {
+  background-image: url("images/team-fungi.jpg");
+  background-position: center 20%;
+  background-position-x: center;
+}
+
+.find {
+  background-image: url("images/wood.jpg");
+}
+
+.impact {
+  background-image: url("images/hero.jpg");
+}
+
+.recetas {
+  background-image: url("images/recetas.jpg");
+}
+
+h1 {
+  font-size: 10rem;
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 0.8em;
+  font-family: "Libre Franklin", sans-serif;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+h1 span {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 2em;
+  color: inherit;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-family: "Reenie Beanie", cursive;
+}
+
+.bajada {
+  font-size: 4rem;
+  color: yellow;
+  font-family: "Reenie Beanie", cursive;
+  line-height: 0.8em;
+}
+
+.description {
+  text-align: center;
+  padding: 30px 20px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  float: left;
+  justify-content: center;
+  text-align: center;
+}
+.item img {
+  max-width: 100%;
+  max-height: 200px;
+}
+.item span {
+  font-weight: 500;
+}
+
+.horeca {
+  overflow: hidden;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.horeca img {
+  max-height: 200px;
+}
+
+#map iframe {
+  width: 100vw;
+  height: 50vh;
+}
+
+#nosVideo {
+  width: 100vw;
+  height: 52vw;
+}
+
+footer {
+  float: left;
+  width: 100vw;
+  text-align: center;
+  font-size: 0.6rem;
+  padding: 10px;
+}
+footer img {
+  height: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 9rem;
+  }
+  .main--nav {
+    height: 80vh;
+    font-size: 3rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
